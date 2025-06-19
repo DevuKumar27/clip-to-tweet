@@ -2,7 +2,7 @@ import streamlit as st
 import openai  # ✅ Correct import
 
 # Set your OpenAI API key
-openai.api_key = "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"
+openai.api_key = "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"
 # 🔐 Replace with your actual key or load from st.secrets
 
 # Streamlit UI
