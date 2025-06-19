@@ -2,8 +2,9 @@ import streamlit as st
 import openai  # ✅ Correct import
 
 # Set your OpenAI API key
-openai.api_key = "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"
+#openai.api_key = "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"
 # 🔐 Replace with your actual key or load from st.secrets
+openai.api_key = st.secrets["openai_api_key"]
 
 # Streamlit UI
 st.set_page_config(page_title="Clip-to-Tweet AI", layout="centered")
